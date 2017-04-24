@@ -1,0 +1,1440 @@
+@charset "UTF-8";
+
+/* INICIO HOME */
+
+body{
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+
+/*inicio imagen fondo*/
+
+/*.cont-image {
+    background-image: url(images/fondo-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+/*fin imagen fondo*/
+
+/*inicio imagen fondo*/
+
+video { 
+	position: relative;
+ 
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;    
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-67%);
+   z-index: 0;
+    background-size: cover;
+ 
+}
+
+.video{
+    background-image: url(images/fondo-background.jpg);
+    display: block;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -50;
+}
+
+
+div.video:before{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '';
+	background: rgba(0,0,0,.8);
+    z-index: 50;
+}
+
+/*fin imagen fondo*/
+
+/*inicio icono*/
+
+[data-icon]:before{
+	display: block;
+	position: absolute;
+}
+
+[data-icon="check-mark"]{
+	
+
+}
+
+[data-icon="check-mark"]:before{
+	content: "\2713";
+}
+
+
+/*fin icono*/
+
+
+/*redes*/
+
+ul.redes {
+     margin-top: 50px;
+}
+
+
+ul.redes li {
+	display: table;
+	float: left;
+	position: relative;
+	border-left: 1px solid #fff;
+	width: 20%;
+	height: 40PX;
+	
+}
+
+ul.redes li:first-child{
+	border-left: none;
+
+}
+
+
+ul.redes li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	color: #fff;
+}
+
+ul.redes li a:before {
+    background: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    text-indent: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+ul.redes a {
+    text-indent: -9999em;
+    display: block;
+}
+
+/*fin redes*/
+
+
+/*inicio logo*/
+
+.logo img {
+    height: 100px;
+    margin-top: 24px;
+}
+
+/*fin logo*/
+
+
+
+/*barra de navegación*/
+
+
+ul.barra li {
+    display: table-cell;
+    float: left;
+    vertical-align: middle;
+    width: 14%;
+    text-align: center;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    height: 30px;
+    cursor: pointer;
+    font-size: 1.15em;
+
+}
+
+ul.barra li:nth-of-type(1){
+	margin-left: 160px;
+}
+
+
+ul.barra li:nth-of-type(2){
+	border-left: none;
+	border-right: none;
+}
+
+ul.barra li:nth-of-type(4){
+	border-left: none;
+	border-right: none;
+}
+
+ul.barra li:hover {
+text-decoration: underline;
+}
+
+
+.nav-bar {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+
+}
+
+ul.barra{
+
+    margin: 10px 145px 10px 15px;
+    color: #fff;
+
+}
+
+
+/*fin barra de navegación*/
+
+
+/*inicio texto imagen*/
+
+.texto-imagen{
+	color: #fff;
+	text-align: center;
+	margin: 250px 0px 30px 0px;
+
+
+}
+
+p.texto-imagen1 {
+    font-weight: 600;
+    font-size: 1.75em;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+p.texto-imagen2 {
+    font-size: 1.125em;
+    margin-top: 30px;
+
+
+}
+
+/*fin barra texto imagen*/
+
+
+/*inicio introdución*/
+
+
+
+
+
+.title-intro {
+    color: rgb(22, 52, 85);
+    font-size: 3.125em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 115px 0 30px 0;
+}
+
+
+.texto-intro {
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: #6F6F6E;
+    line-height: 27px;
+}
+
+
+/*fin introdución*/
+
+.title-formation {
+    color: rgb(22, 52, 85);
+    font-size: 3.125em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 50px 0 0px 0;
+}
+
+.icono h3:before {
+  width: 130px;
+    height: 130px;
+    background: #1D70B7;
+    border-radius: 77px;
+    position: relative;
+    font-size: 75px;
+    color: rgb(255, 255, 255);
+    margin: 30px 0 30px -14px;
+    padding: 21px 38px;
+
+}
+
+.icono h3{
+	color: #1D70B7;
+	font-size: 1.375em;
+	margin: 0 52px 18px 46px;
+}
+
+.icono p {
+	  font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+    color: #6F6F6E;
+ 
+}
+
+.aliados{
+	margin-top: 100px;
+	background: #ECECEC;
+	height: 100px;
+}
+
+
+
+/* footer */
+
+.footer{
+
+	height: 200px;
+	background: #163455;
+	color: #fff;
+	display: table;
+    width: 100%;
+}
+
+.footer-cont {
+   vertical-align: middle;
+   display: table-cell;
+   margin-top: 50px;
+}
+
+.tiutlo-footer {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 1.312em;
+}
+
+.tel-footer{
+	font-weight: 300;
+	font-size: 0.875em;
+
+}
+
+.terminos{
+	font-weight: 300;
+	font-size: 0.875em;
+	text-align: center;
+
+}
+
+
+
+/* final footer */
+
+
+/* final HOME */
+
+
+/* INICIO QUIENES SOMOS*/
+
+
+.cont-image-quienes-somos {
+    background-image: url(images/quienes-somos/quienes-somos-background.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+.cont-image-quienes-somos:before{
+
+    width: 100%;
+    height: 79%;
+    position: absolute;
+    content: '';
+    background: rgba(0,0,0,.8);
+
+
+}
+
+
+.title-intro-quienes {
+    color: rgb(22, 52, 85);
+    font-size: 3.125em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 50px 0 30px 0;
+}
+
+.title-intro-quienes p {
+    width: 50%;
+}
+
+.title-intro-quienes p:after {
+    background-image: url(images/quienes-somos/logo-quienes-somos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 145px;
+    width: 145px;
+    content: ' ';
+    position: absolute;
+    border-radius: 100px;
+    display: inline-block;
+    margin-left: -62px;
+
+
+
+}
+
+.texto-intro-quienes {
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: #6F6F6E;
+    line-height: 27px;
+    margin-top: 55px;
+}
+
+main{
+    margin: 0 auto;
+
+}
+
+
+section.about {
+    margin: 29em auto;
+
+    width: 100%;
+}
+
+main>section {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+section.about>nav {
+    width: 320px;
+    -webkit-transform: translateX(1px);
+    -moz-transform: translateX(1px);
+    -ms-transform: translateX(1px);
+    transform: translateX(1px);
+    z-index: 1;
+}
+
+section.about>div, section.about>nav, section.about>nav>ul>li {
+    display: block;
+    float: left;
+    position: relative;
+}
+
+section.about>nav>ul>li {
+    width: 100%;
+    height: 4em;
+    line-height: 4em;
+    margin-bottom: 1.6em;
+}
+
+section.about>nav>ul>li>a {
+    display: block;
+    width: 100%;
+    padding: 0 1em;
+    background: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+    -moz-border-radius-topleft: 8px;
+    border-top-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-bottom-left-radius: 8px;
+    border-top: 1px solid rgb(210, 210, 210);
+    border-left: 1px solid rgb(210, 210, 210);
+    border-bottom: 1px solid rgb(210, 210, 210);
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.375em;
+    font-weight: 400;
+    color: #6F6F6E;
+    text-decoration: none;
+}
+
+
+
+section.about article.offset-panel.active-panel {
+    visibility: visible;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    position: relative;
+    opacity: 1;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    height: 370px;
+}
+
+section.about article.offset-panel {
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateY(250px);
+    -moz-transform: translateY(250px);
+    -ms-transform: translateY(250px);
+    transform: translateY(250px);
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+section.about article {
+    padding: 1em 4em;
+    min-height: 15em;
+}
+
+
+section.about>div {
+    width: -webkit-calc(100% - 320px);
+    width: -moz-calc(100% - 320px);
+    width: calc(100% - 320px);
+    overflow: hidden;
+    border: 1px solid rgb(210, 210, 210);
+    -moz-border-radius-topright: 8px;
+    border-top-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-bottom-left-radius: 8px;
+    font-weight: 400;
+    font-size: 1.25em;
+    color: #6F6F6E;
+}
+
+section.about>div, section.about>nav>ul>li>a.active {
+    background: rgb(248, 248, 248);
+}
+
+
+/* FIN QUIENES SOMOS*/
+
+
+/* INICIO PREGRADO */
+
+.cont-image-pregrado {
+    background-image: url(images/pregrado/background-pregrado.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+
+.cont-image-pregrado:before{
+
+	width: 100%;
+	height: 79%;
+	position: absolute;
+	content: '';
+	background: rgba(0,0,0,.8);
+
+
+}
+
+
+.form {
+    width: 93%;
+    background: rgb(29, 112, 183);
+    margin: -29px auto 0 35px;
+    height: 530px;
+}
+
+.contenido{
+	margin-top: 80px;
+}
+
+
+/* FINAL PREGRADO */
+
+/* INICIO RESPONSABILIDAD*/
+
+.cont-image-responsabilidad {
+    background-image: url(images/pregrado/background-pregrado.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+.cont-image-responsabilidad:before{
+
+	width: 100%;
+	height: 78%;
+	position: absolute;
+	content: '';
+	background: rgba(0,0,0,.8);
+
+
+}
+
+
+.image-responsabilidad h3:after {
+    background-image: url(images/responsabilidad/imagenes-responsabilidad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 128px;
+    width: 128px;
+    content: ' ';
+    position: absolute;
+    border-radius: 100px;
+    margin: 12px -15px 0px -15px;
+    display: inline-block;
+}
+
+.image-responsabilidad .donacion:after {
+    background-image: url(images/responsabilidad/imagenes-responsabilidad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 128px;
+    width: 128px;
+    content: ' ';
+    position: absolute;
+    border-radius: 100px;
+    margin: 12px -15px 0px -15px;
+    display: inline-block;
+    background-position: 0;
+}
+
+
+.image-responsabilidad .tiempo:after {
+    background-image: url(images/responsabilidad/imagenes-responsabilidad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 128px;
+    width: 128px;
+    content: ' ';
+    position: absolute;
+    border-radius: 100px;
+    margin: 12px -15px 0px -15px;
+    display: inline-block;
+    background-position: 0 -266px;
+}
+
+
+.image-responsabilidad {
+    height: 162px;
+}
+
+
+.image-responsabilidad h3 {
+	margin:0 auto 0 auto;
+	width: 100%; 
+
+
+}
+
+.text-responsabilidad {
+	font-size: 1.25em;
+	color: #6F6F6E;
+	text-align: justify;
+
+
+}
+
+
+h3.beca {
+    color: rgb(22, 52, 84);
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+
+.content{
+	height: 210px;
+}
+
+.content:nth-of-type(3) {
+	height: 240px;
+
+}
+
+h3.donacion{
+	color: #1D70B7;
+    font-size: 2.0em;
+    font-weight: 400;
+
+}
+
+h3.tiempo{
+	color: #6F6F6E;
+    font-size: 2.0em;
+    font-weight: 400;
+
+}
+
+
+
+/* FIN RESPONSABILIDAD */
+
+
+
+
+
+/* EDUCACIÓN CONTINUADA*/
+
+
+.cont-image-educacion {
+    background-image: url(images/educacion-continuada/background-continuada.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+.cont-image-educacion:before {
+	content: '';
+	width: 100%;
+	height: 79%;
+	background: rgba(0, 0, 0,.8);
+	position: absolute;
+
+}
+
+.outline{
+	display: none;
+}
+
+span.titulo-educacion {
+    color: #6F6F6E;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 25px 0px 25px 85px;
+}
+
+
+section.corporate-programs h4 {
+    display: block;
+    float: left;
+    position: relative;
+    width: -webkit-calc(100% / 2);
+    width: -moz-calc(100% / 2);
+    width: calc(100% / 2);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+section.corporate-programs h4.active>span {
+    position: relative;
+    background: #6F6F6E;
+
+}
+
+
+section.corporate-programs h4.active .titulo-educacion {
+	color: #F0F0F0;
+	border:0.5px solid #F0F0F0;
+}
+
+section.corporate-programs h4.active>span:before {
+
+	color: #F0F0F0;
+}
+
+
+section.corporate-programs h4>span {
+    display: table;
+    height: 3em;
+    width: 95%;
+    margin: 0 auto;
+    background: #F0F0F0;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius: 10px; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border:0.5px solid #6F6F6E;
+}
+
+section.corporate-programs h4>span:before {
+	padding: 20px 30px;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(111, 111, 110);
+}
+
+section.corporate-programs h4>span>span {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+}
+
+section.corporate-programs h4.active>span:after {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    right: 15px;
+    top: 10px;
+    content: 'X';
+	color: #F0F0F0;;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+
+section.corporate-programs ul>li button {
+    display: none;
+    margin-left: .5em;
+    border: 0;
+    background: rgb(43, 100, 166);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+section.corporate-programs ul>li{
+	padding: 5px;
+    color: rgb(128, 128, 128);
+    clear: both;
+ 
+}
+
+
+section.corporate-programs ul>li>a{
+    color: #000;
+    transition: 0.3s;
+}
+
+section.corporate-programs ul>li>a:hover{
+    font-weight: bolder;
+    color: #1D70B7;
+}
+
+
+section.corporate-programs ul>li:hover button {
+    display: inline-block;
+}
+
+section.corporate-programs ul>li button:hover {
+    background: rgb(22, 51, 85);
+}
+
+.form-educacion{
+    width: 93%;
+    background: rgb(29, 112, 183);
+    margin: 0px auto 0 35px;
+    height: 530px;
+}
+
+
+/* FIN EDUCACIÓN CONTINUADA*/
+
+
+/* INICIO PROGRAMAS CERTIFICADOS*/
+
+.cont-image-programas {
+    background-image: url(images/background-certificados.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+.cont-image-programas:before {
+	content: '';
+	width: 100%;
+	height: 84%;
+	background: rgba(0, 0, 0,.8);
+	position: absolute;
+
+}
+
+.tabs-certificados{
+	padding: 10px;
+}
+
+
+
+.tabs-certificados {
+    padding: 10px;
+    width: 100%;
+    
+}
+
+
+.tabs-certificados li {
+    background: rgb(240, 240, 240);
+    height: 68px;
+    border-radius: 8px;
+    width: 47%;
+    float: left;
+    margin: 10px;
+	display: table;
+    position: relative;
+
+
+}
+
+.tabs-certificados li:hover {
+    background:  #6F6F6E;
+}
+
+.tabs-certificados li a{
+	display: table-cell;
+    vertical-align: middle;
+    color: #6F6F6E;
+    font-size: 1.375em;
+    font-weight: 500;
+    padding-left: 90px;
+    text-decoration: none;
+    
+
+}
+
+
+.tabs-certificados li a:hover{
+    color: rgb(240, 240, 240);
+}
+
+
+.tabs-certificados li a:before{
+    left: 35px;
+}
+
+
+/* FIN PROGRAMAS CERTIFICADOS*/
+ 
+
+/*------------------------------------------------------------------------*/
+
+
+/*COMIENZO RESPONSIVE*/ 
+
+
+
+
+/*-------------- INICIO IPAD ---------------------------*/
+
+
+
+@media (max-width: 770px) and (min-width: 480px){
+
+    /*INICIO HOME*/
+
+
+            video{
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+
+
+        .video{
+            background-image: url(images/fondo-background-480.jpg);
+            background-size: cover;
+        }
+
+        .title-formation p {
+            margin-bottom: 55px;
+        }
+
+        .icono h3:before {
+            margin:0 auto; 
+            bottom: 18px;
+        }
+
+        .icono p {
+            text-align: justify;
+            width: 50%;
+            margin: 0 auto;
+            padding: 3px 0px 37px 0px;
+        }
+
+        .icono h3 {
+            text-align: center;
+
+        } 
+
+        .logo img {
+            height: 50px;
+        }   
+
+        ul.redes {
+            margin-top: 30px;
+        }  
+
+        .barra{
+            display: none;
+        }
+
+        .nav-bar {
+            border:none; 
+        }
+
+        .nav-bar:after {
+            content: " ";
+            display: block;
+            height: 50px;
+            width: 50px;
+            background: rgb(255, 255, 255);
+            position: absolute;
+            margin: 20px 46%;
+        }
+
+        .title-intro {
+            margin-top: 150px;
+        }
+
+
+    /*FIN HOME*/
+
+
+       /*INICIO QUIENES SOMOS*/
+
+        .cont-image-quienes-somos:before{
+            height: 64%;
+        }
+
+        section.about {
+            margin: 43em auto;
+        }
+
+        .cont-image-quienes-somos .texto-imagen1 {
+            width: 96%;
+
+        }
+
+        .title-intro-quienes {
+            width: 30%;
+            float: left;
+            font-size: 2.3em;
+        }
+
+        .texto-intro-quienes {
+            width: 65%;
+            float: left;
+        }
+
+        .title-intro-quienes p:after{
+            height: 99px;
+            width: 99px;
+            margin-left: -18px;
+
+        }
+
+
+    /*FIN QUIENES SOMOS*/
+
+
+       /*INICIO PREGRADO*/
+
+        .cont-image-pregrado .title-intro {
+            margin-top: 40px;
+        }
+
+        .form{
+                margin: 77px auto;
+        }
+
+
+
+
+    /*FIN PREGRADO*/
+
+}
+
+
+
+/*----------------- FIN IPAD ------------------------*/
+
+
+
+/*----------------- INICIO CELULAR ------------------------*/
+
+@media (max-width: 480px){
+
+    /*INICIO HOME*/
+
+        video{
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+
+        ul.redes li a:before {
+            font-size: 19px;
+        }
+
+        ul.redes li {
+            height: 25PX;
+        }
+
+        .title-formation p {
+            margin-bottom: 55px;
+        }
+
+        .icono h3:before {
+            margin:0 auto; 
+            bottom: 18px;
+        }
+
+        .icono p {
+            text-align: justify;
+            width: 90%;
+            margin: 0 auto;
+            padding: 3px 0px 37px 0px;
+        }
+
+        .icono h3 {
+            text-align: center;
+
+        } 
+
+        .logo img {
+            height: 35px;
+        }   
+
+        ul.redes {
+            margin-top: 30px;
+        }  
+
+        .barra{
+            display: none;
+        }
+
+        .nav-bar {
+            border:none; 
+        }
+
+        .nav-bar:after {
+            content: " ";
+            display: block;
+            height: 50px;
+            width: 50px;
+            background: rgb(255, 255, 255);
+            position: absolute;
+            margin: 20px 46%;
+        }
+
+        .texto-imagen1{
+            width: 80% !important;
+
+        }
+
+        .title-intro {
+            margin-top: 150px;
+        }
+
+        .icono {
+            padding: 18px 0;
+        }
+
+
+    /*FIN HOME*/
+
+
+    /*INICIO QUIENES SOMOS*/
+
+        .title-intro-quienes p {
+            width: 50%;
+            margin: 0 auto 170px auto;
+        }
+
+        section.about {
+            margin: 5em auto;
+        }
+
+           .cont-image-quienes-somos:before {
+             height: 73%;
+        }
+
+
+    /*FIN QUIENES SOMOS*/
+
+
+    /*INICIO PREGRADO*/
+
+
+            .form{
+                margin: 77px auto;
+        }
+
+
+    /*FIN PREGRADO*/
+
+
+
+
+
+}
+
+
+/*----------------- FIN CELULAR ------------------------*/
+
+
+
+
+/*-------------- INICIO BREAK PONINTS ADICIONALES ---------------------------*/
+
+
+
+@media (min-width: 992px) and (max-width: 1170px){
+
+    /*INICIO HOME*/ 
+
+            video{
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+    /*INICIO HOME*/    
+}
+
+
+@media (max-width: 992px) and (min-width: 770px){
+
+    /*INICIO HOME*/
+
+            video{
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+
+
+        .video{
+            background-image: url(images/fondo-background-768.jpg);
+            background-size: cover;
+
+        }
+
+            .nav-bar{
+            height: 58px;
+        }
+
+        ul.barra li:nth-of-type(1) {
+            margin-left: 0;
+        }
+
+        ul.barra li {
+            width: 20%;
+            height: 46px;
+        }
+
+        ul.barra {
+            margin: 10px 0 10px 0px;
+
+        }
+
+
+        .title-formation p {
+            margin-bottom: 55px;
+        }
+
+        .icono h3:before {
+            margin:0 auto; 
+            bottom: 18px;
+        }
+
+        .icono p {
+            text-align: justify;
+            width: 50%;
+            margin: 0 auto;
+            padding: 3px 0px 37px 0px;
+        }
+
+        .icono h3 {
+            text-align: center;
+
+        } 
+
+
+
+    /*FIN HOME*/
+
+
+       /*INICIO QUIENES SOMOS*/
+
+        .cont-image-quienes-somos:before{
+            height: 82%;
+        }
+
+        section.about {
+            margin: 43em auto;
+        }
+
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1016px){
+   .cont-image-quienes-somos:before {
+             height: 83%;
+        }
+}
+
+
+
+@media (max-width: 1233px) and (min-width: 992px){
+
+
+        .cont-image-quienes-somos:before {
+             height: 82%;
+        }
+}
+
+
+@media (max-width: 945px) and (min-width: 769px){
+
+
+        .cont-image-quienes-somos:before {
+             height: 86%;
+        }
+}
+
+
+@media (max-width: 707px) and (min-width: 514px){
+
+
+        .cont-image-quienes-somos:before {
+             height: 62%;
+        }
+}
+
+
+@media (max-width:668px ) and (min-width: 514px){
+
+
+        .cont-image-quienes-somos:before {
+             height: 66%;
+        }
+}
+
+
+
+@media (max-width: 513px) and (min-width: 480px){
+
+
+        .cont-image-quienes-somos:before {
+             height: 72%;
+        }
+}
+
+
+@media (max-width: 438px) and (min-width: 377px){
+
+
+        .cont-image-quienes-somos:before {
+                 height: 79%;
+        }
+}
+
+
+@media (max-width: 377px) {
+
+
+        .cont-image-quienes-somos:before {
+             height: 88%;
+        }
+}
+
+
+/*FIN QUIENES SOMOS*/
+
+
+
+/*INICIO PREGRADO*/
+
+    @media (max-width: 992px) and (min-width: 770px){
+
+
+        .container.pregrado .title-intro {
+            margin-top: 40px;
+        }
+
+        .form{
+                margin: 77px auto;
+        }
+
+    }
+
+
+
+    @media (max-width: 1232px) and (min-width: 1015px){
+
+        .cont-image-educacion:before {
+            height: 82%;
+        }
+
+
+    }
+
+
+       @media (max-width: 1016px) and (min-width: 992px){
+
+        .cont-image-educacion:before {
+            height: 84%;
+        }
+
+
+    }
+
+
+     @media (max-width: 991px) and (min-width: 936px){
+
+        .cont-image-educacion:before {
+            height: 81%;
+        }
+
+
+    }
+
+
+
+     @media (max-width: 935px) and (min-width: 772px){
+
+        .cont-image-educacion:before {
+            height: 87%;
+        }
+
+
+    }
+
+
+
+     @media (max-width: 685px) and (min-width: 545px){
+
+        .cont-image-educacion:before {
+            height: 81%;
+        }
+
+
+    }
+
+     @media (max-width: 544px) and (min-width: 491px){
+
+        .cont-image-educacion:before {
+            height: 86%;
+        }
+
+
+    }
+
+
+
+
+/*INICIO PREGRADO*/
+
+
+
+
+
+/*-------------- FIN BREAK PONINT ADICIONALES ---------------------------*/
+
+
+/*FIN RESPONSIVE*/ 
