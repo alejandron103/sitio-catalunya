@@ -30,7 +30,7 @@ video {
   position: absolute;    
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-67%);
+  transform: translateX(-50%) translateY(-65%);
    z-index: 0;
     background-size: cover;
  
@@ -238,7 +238,11 @@ p.texto-imagen2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     text-align: center;
-    margin: 115px 0 30px 0;
+    margin: 55px 0 30px 0;
+}
+
+.container.home .title-intro{
+    margin-top: 115px;
 }
 
 
@@ -549,6 +553,10 @@ section.about>div, section.about>nav>ul>li>a.active {
     height: 530px;
 }
 
+.image img{
+    width: 100%;
+}
+
 .contenido{
 	margin-top: 80px;
 }
@@ -559,7 +567,7 @@ section.about>div, section.about>nav>ul>li>a.active {
 /* INICIO RESPONSABILIDAD*/
 
 .cont-image-responsabilidad {
-    background-image: url(images/pregrado/background-pregrado.jpg);
+    background-image: url(images/responsabilidad/background-responsabilidad.jpg);
     background-size: cover;
     display: inline-block;
 }
@@ -567,7 +575,7 @@ section.about>div, section.about>nav>ul>li>a.active {
 .cont-image-responsabilidad:before{
 
 	width: 100%;
-	height: 78%;
+	height: 74%;
 	position: absolute;
 	content: '';
 	background: rgba(0,0,0,.8);
@@ -788,8 +796,6 @@ section.corporate-programs h4.active>span:after {
     border: 1px solid rgb(255, 255, 255);
 }
 
-
-
 section.corporate-programs ul>li button {
     display: none;
     margin-left: .5em;
@@ -805,7 +811,7 @@ section.corporate-programs ul>li button {
 section.corporate-programs ul>li{
 	padding: 5px;
     color: rgb(128, 128, 128);
-    clear: both;
+
  
 }
 
@@ -813,6 +819,10 @@ section.corporate-programs ul>li{
 section.corporate-programs ul>li>a{
     color: #000;
     transition: 0.3s;
+}
+
+section.corporate-programs ul{
+    clear: both;
 }
 
 section.corporate-programs ul>li>a:hover{
@@ -834,7 +844,10 @@ section.corporate-programs ul>li button:hover {
     background: rgb(29, 112, 183);
     margin: 0px auto 0 35px;
     height: 530px;
+
 }
+
+
 
 
 /* FIN EDUCACIÓN CONTINUADA*/
@@ -843,7 +856,7 @@ section.corporate-programs ul>li button:hover {
 /* INICIO PROGRAMAS CERTIFICADOS*/
 
 .cont-image-programas {
-    background-image: url(images/background-certificados.jpg);
+    background-image: url(images/programas-certificados/background-certificados.jpg);
     background-size: cover;
     display: inline-block;
 }
@@ -851,7 +864,7 @@ section.corporate-programs ul>li button:hover {
 .cont-image-programas:before {
 	content: '';
 	width: 100%;
-	height: 84%;
+	height: 74%;
 	background: rgba(0, 0, 0,.8);
 	position: absolute;
 
@@ -874,7 +887,7 @@ section.corporate-programs ul>li button:hover {
     background: rgb(240, 240, 240);
     height: 68px;
     border-radius: 8px;
-    width: 47%;
+    width: 46%;
     float: left;
     margin: 10px;
 	display: table;
@@ -910,7 +923,138 @@ section.corporate-programs ul>li button:hover {
 }
 
 
+.form-certificados{
+    width: 93%;
+    background: rgb(29, 112, 183);
+    margin: 0px auto 0 35px;
+    height: 530px;
+
+}
+
+
 /* FIN PROGRAMAS CERTIFICADOS*/
+
+
+/* INICIO CONTACTO*/
+
+
+.cont-image-contacto {
+    background-image: url(images/contacto/contacto.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+.cont-image-contacto:before {
+    content: '';
+    width: 100%;
+    height: 74%;
+    background: rgba(0, 0, 0,.8);
+    position: absolute;
+
+}
+
+.form-contacto{
+    width: 93%;
+    background: rgb(29, 112, 183);
+    margin: 0px auto 0 35px;
+    height: 530px;
+
+}
+
+.title-contacto{
+    color: #133253;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.dates p{
+    font-size: 1.15em;
+    color: #6F6F6E;
+    margin-left: 44px;
+    padding: 5px;
+}
+
+.dates span:before {
+    width: 37px;
+    height: 37px;
+    background:rgb(29, 112, 183);
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    padding: 9px 13px;
+    font-weight: bold;
+}
+
+.col-md-6.lima {
+    left: 25px;
+}
+
+.miami{
+    margin-top: 70px;
+    left: 25px;
+}
+
+
+
+
+/*  FIN CONTACTO*/
+
+
+
+
+/* INICIO PÁGINA ERROR*/
+
+.cont-image-error-404 {
+    background-image: url(images/pagina-no-encontrada/background-error.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    height: 586px;
+}
+
+.cont-image-error-404:before{
+    content: ' ';
+    width: 100%;
+    height: 74%;
+    background:#000;
+    opacity: .8; 
+    position: absolute;
+}
+
+.form-error-404{
+    width: 80%;
+    background: rgb(29, 112, 183);
+    margin: 0px auto 0 auto;
+    height: 530px;
+
+}
+
+
+/* FIN PÁGINA ERROR*/
+
+
+/* INICIO GRACIAS*/
+
+.cont-image-gracias {
+    background-image: url(images/gracias/background-gracias.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    height: 586px;
+    background-position-y: -152px;
+}
+
+.cont-image-gracias:before{
+    content: ' ';
+    width: 100%;
+    height: 74%;
+    background:#000;
+    opacity: .8; 
+    position: absolute;
+
+}
+
+
+/* FIN GRACIAS*/
  
 
 /*------------------------------------------------------------------------*/
@@ -998,8 +1142,18 @@ section.corporate-programs ul>li button:hover {
 
        /*INICIO QUIENES SOMOS*/
 
-        .cont-image-quienes-somos:before{
-            height: 64%;
+
+        .cont-image-quienes-somos {
+             background-image: url(images/quienes-somos/quienes-somos-background-768.jpg);
+        }
+
+        .cont-image-quienes-somos p.texto-imagen1 {
+            width: 100%;
+            font-size: 1.275em;
+        }
+
+        .cont-image-quienes-somos:before {
+            height: 61%;
         }
 
         section.about {
@@ -1035,7 +1189,11 @@ section.corporate-programs ul>li button:hover {
 
        /*INICIO PREGRADO*/
 
-        .cont-image-pregrado .title-intro {
+        .cont-image-pregrado {
+             background-image: url(images/pregrado/background-pregrado-768.jpg);
+        }
+
+        .container.pregrado .title-intro {
             margin-top: 40px;
         }
 
@@ -1044,13 +1202,193 @@ section.corporate-programs ul>li button:hover {
         }
 
 
+        .cont-image-pregrado p.texto-imagen1 {
+            width: 100%;
+            font-size: 1.275em;
+        }
+
+        .cont-image-pregrado:before {
+            height: 61%;
+        }
 
 
     /*FIN PREGRADO*/
 
+    /*INICIO EDUCACIÓN*/
+
+        .cont-image-educacion {
+             background-image: url(images/educacion-continuada/background-continuada-768.jpg);
+        }
+
+
+        span.titulo-educacion{
+            padding: 0px 33px;
+            font-size: 0.8em;
+
+        }
+
+        section.corporate-programs h4>span:before {
+            padding: 14px 4px;
+            font-size: 17px;
+
+        }
+
+        section.corporate-programs ul>li{
+            font-size: .75em;
+        }
+
+
+        .cont-image-educacion:before {
+            height: 60%;
+        }
+
+        .cont-image-educacion p.texto-imagen1 {
+            width: 96%;
+            font-size: 1.117em
+        }  
+
+        .container.educacion .title-intro {
+            margin-top: 40px;
+        } 
+
+
+        .form-educacion{
+            margin:0 auto; 
+            margin-top: 40px;
+        }
+
+
+
+    /*FIN EDUCACIÓN*/
+
+
+    /*INICO PROGRAMAS CERTIFICADOS*/
+
+        .cont-image-programas {
+             background-image: url(images/programas-certificados/background-certificados-768.jpg);
+        }
+
+        .cont-image-programas p.texto-imagen1{
+            font-size: 1.55em;
+            width: 100%;
+        }
+
+        .cont-image-programas:before{
+            height: 58%;
+        }
+
+        .cont-image-programas{
+            display: block; 
+        }
+
+        .container.programas .title-intro{
+            margin-top: 40px;
+        }
+
+        .tabs-certificados li{
+            width: 46%;
+        }
+
+        .form-certificados{
+            width: 70%;
+            margin: 0 auto;
+        }
+
+    /*FIN PROGRAMAS CERTIFICADOS*/
+
+
+        /*INICIO RESPONSABILIDAD*/
+
+        .cont-image-responsabilidad {
+             background-image: url(images/responsabilidad/background-responsabilidad-768.jpg);
+        }
+
+       .cont-image-responsabilidad p.texto-imagen1 {
+            width: 100%;
+            font-size: 1.275em;
+        }  
+
+
+        .cont-image-responsabilidad:before {
+            width: 100%;
+            height: 61%;
+        }
+
+        .content {
+            height: 280px;
+        }
+
+        .content:nth-of-type(3) {
+            height: 300px;
+        }
+
+        .container.responsabilidad .title-intro {
+             margin: 44px 0;
+        }
+
+
+    /*INICIO RESPONSABILIDAD*/
+
+
+    /*  FIN CONTACTO*/
+
+
+        .cont-image-contacto {
+            background-image: url(images/contacto/contacto-768.jpg);
+        }
+
+        .container.contacto .title-intro{
+            margin: 45px 0px;
+        }
+
+        .form-contacto{
+            margin-top: 55px;
+        }
+
+
+       .cont-image-contacto p.texto-imagen1 {
+            width: 100%;
+            font-size: 1.275em;
+        } 
+
+        .cont-image-contacto:before{
+            height: 61%;
+        }
+
+        .dates p{
+            font-size: 1.1em;
+
+        }
+
+        .container.error-404 .title-intro {
+            margin-top: 40px;
+        }
+
+        .form-error-404{
+            margin-top: 60px;
+        }
+
+
+    /*  FIN CONTACTO*/
+
+    /*  INICIO GRACIAS*/
+
+
+        .cont-image-gracias {
+            background-position-x: -190px;
+             background-position-y: 0px;
+
+        }
+
+        .container.gracias .title-intro{
+            margin-top: 40px;
+        }
+
+    /*  FIN GRACIAS*/
+
+
+
 }
-
-
 
 /*----------------- FIN IPAD ------------------------*/
 
@@ -1141,6 +1479,17 @@ section.corporate-programs ul>li button:hover {
 
     /*INICIO QUIENES SOMOS*/
 
+        .cont-image-quienes-somos {
+             background-image: url(images/quienes-somos/quienes-somos-background-480.jpg);
+        }
+
+
+        .cont-image-quienes-somos p.texto-imagen1 {
+            width: 100%;
+            font-size: 1.275em;
+        }
+
+
         .title-intro-quienes p {
             width: 50%;
             margin: 0 auto 170px auto;
@@ -1151,7 +1500,7 @@ section.corporate-programs ul>li button:hover {
         }
 
            .cont-image-quienes-somos:before {
-             height: 73%;
+             height: 65%;
         }
 
 
@@ -1160,13 +1509,256 @@ section.corporate-programs ul>li button:hover {
 
     /*INICIO PREGRADO*/
 
+        .cont-image-pregrado {
+             background-image: url(images/pregrado/background-pregrado-480.jpg);
+        }
 
-            .form{
+        .form{
                 margin: 77px auto;
         }
 
+        .container.pregrado .title-intro {
+            margin-top: 40px;
+        }
+
+
+
+        .cont-image-pregrado p.texto-imagen1 {
+            width: 100%;
+            font-size: 1.275em;
+        }
+
+        .cont-image-pregrado:before {
+            height: 65%;
+        }
+
+
+
+
+
 
     /*FIN PREGRADO*/
+
+    /*INICIO EDUCACIÓN*/
+
+        .cont-image-educacion {
+             background-image: url(images/educacion-continuada/background-continuada-480.jpg);
+        }
+
+
+        span.titulo-educacion{
+            padding: 0px 27px;
+            font-size: 0.7em;
+
+        }
+
+        section.corporate-programs h4>span:before {
+            padding: 14px 4px;
+            font-size: 12px;
+
+        }
+
+        section.corporate-programs ul>li{
+            font-size: .75em;
+        }
+
+
+        .cont-image-educacion p.texto-imagen1 {
+            width: 96%;
+        }  
+
+
+        .container.educacion .title-intro {
+            margin-top: 40px;
+        } 
+
+        .formulario {
+            margin-top: 49px;
+        }
+
+        .cont-image-educacion p.texto-imagen1 {
+            width: 100%;
+            font-size: 1.275em;
+        }
+
+        .cont-image-educacion:before {
+            height: 70%;
+        }
+
+
+    /*FIN EDUCACIÓN*/
+
+
+
+    /*INICIO PROGRAMAS CERTIFICADOS*/
+
+        .cont-image-programas {
+             background-image: url(images/programas-certificados/background-certificados-480.jpg);
+        }
+
+        .cont-image-programas p.texto-imagen1 {
+            width: 100%;
+            font-size: 1.275em;
+        }
+
+        .cont-image-programas:before{
+            height: 67%;
+        }
+
+        .container.programas .title-intro{
+            margin-top: 40px;
+        }
+
+        .tabs-certificados{
+            padding: 0px;
+        }
+
+        .tabs-certificados li{
+            width: 44%;
+        }
+
+        .tabs-certificados li a{
+            padding-left: 40px;
+            font-size: 1.117em;
+        }
+
+        .tabs-certificados li a:before {
+            left: 16px;
+        }
+
+        .form-certificados{
+            margin:40px auto;
+        }
+
+
+
+    /*FIN PROGRAMAS CERTIFICADOS*/
+
+
+
+    /*INICIO RESPONSABILIDAD*/
+
+        .cont-image-responsabilidad {
+             background-image: url(images/responsabilidad/background-responsabilidad-480.jpg);
+        }
+
+       .cont-image-responsabilidad p.texto-imagen1 {
+            width: 100%;
+            font-size: 1.275em;
+        }  
+
+        .container.responsabilidad .title-intro {
+            margin-top: 44px;
+            font-size: 2.18em;
+        }
+
+        .cont-image-responsabilidad:before {
+
+            height: 65%;
+        }
+
+        .image-responsabilidad{
+            width: 100% !important;
+            text-align: center;
+            margin-bottom: 60px;
+            margin-top: 47px;
+        }
+
+
+
+        .texto-responsabilidad{
+            width: 100% !important;
+            text-align: justify;
+
+        }
+
+        .image-responsabilidad h3:after{
+            margin: 10px -26px 0 -62px !important;
+
+        }
+
+
+
+
+    /*INICIO RESPONSABILIDAD*/
+
+
+    /*  FIN CONTACTO*/
+
+        .cont-image-contacto {
+            background-image: url(images/contacto/contacto-480.jpg);
+        }
+
+        .container.contacto .title-intro{
+            margin: 45px 0px;
+        }
+
+        .form-contacto{
+            margin: 55px auto;
+        }
+
+
+       .cont-image-contacto p.texto-imagen1 {
+            width: 100%;
+            font-size: 1.275em;
+        } 
+
+        .cont-image-contacto:before{
+            height: 61%;
+        }
+
+        .dates p{
+            font-size: .9em;
+            max-width: 95px;
+            height: 40px;
+            left: 0;
+
+        }
+
+        .bogota {
+            width: 100% !important;
+            margin-bottom: 30px;
+            
+
+        }
+
+        .miami{
+            width: 100% !important;
+           
+        }
+
+        .lima{
+            width: 100% !important;
+          
+        }
+
+        .title-contacto{
+            text-align: center;
+            margin-bottom: 10px;r
+        }
+
+
+
+
+
+    /*  FIN CONTACTO*/
+
+
+    /*  INICIO GRACIAS*/
+
+
+        .cont-image-gracias {
+            background-position-x: -322px;
+             background-position-y: 0px;
+
+        }
+
+
+        .container.gracias .title-intro{
+            margin-top: 40px;
+        }
+
+    /*  FIN GRACIAS*/
 
 
 
@@ -1176,6 +1768,14 @@ section.corporate-programs ul>li button:hover {
 
 
 /*----------------- FIN CELULAR ------------------------*/
+
+
+
+
+
+
+
+
 
 
 
@@ -1257,98 +1857,134 @@ section.corporate-programs ul>li button:hover {
     /*FIN HOME*/
 
 
+
+
+
+
+
        /*INICIO QUIENES SOMOS*/
 
-        .cont-image-quienes-somos:before{
-            height: 82%;
+
+
+
+}
+
+@media (max-width: 1580px) and (min-width: 1233px){
+
+
+        .cont-image-quienes-somos:before {
+             height: 81%;
         }
+}
 
-        section.about {
-            margin: 43em auto;
+@media (max-width: 1233px) and (min-width: 992px){
+
+
+        .cont-image-quienes-somos:before {
+             height: 87%;
         }
-
-
 }
 
 
 
 @media (min-width: 992px) and (max-width: 1016px){
    .cont-image-quienes-somos:before {
-             height: 83%;
+             height: 87%;
+        }
+}
+
+
+@media (max-width: 992px) and (min-width: 772px){
+   .cont-image-quienes-somos:before {
+             height: 94%;
+        }
+}
+
+
+@media (max-width: 992px) and (min-width: 943px){
+   .cont-image-quienes-somos:before {
+             height: 90%;
         }
 }
 
 
 
-@media (max-width: 1233px) and (min-width: 992px){
+@media (max-width: 942px) and (min-width: 797px){
+   .cont-image-quienes-somos:before {
+             height: 92%;
+        }
+}
+
+
+
+@media (max-width: 678px) and (min-width: 377px){
 
 
         .cont-image-quienes-somos:before {
-             height: 82%;
+                 height: 65%;
         }
 }
 
 
-@media (max-width: 945px) and (min-width: 769px){
+
+@media (max-width: 454px) and (min-width: 372px){
 
 
         .cont-image-quienes-somos:before {
-             height: 86%;
+                 height: 70%;
         }
 }
 
 
-@media (max-width: 707px) and (min-width: 514px){
+@media (max-width: 332px) and (min-width: 287px){
 
 
         .cont-image-quienes-somos:before {
-             height: 62%;
+                 height: 77%;
         }
 }
 
 
-@media (max-width:668px ) and (min-width: 514px){
+
+
+
+@media (max-width: 370px) and (min-width: 333px){
 
 
         .cont-image-quienes-somos:before {
-             height: 66%;
+                 height: 74%;
         }
 }
 
 
 
-@media (max-width: 513px) and (min-width: 480px){
-
-
-        .cont-image-quienes-somos:before {
-             height: 72%;
-        }
-}
-
-
-@media (max-width: 438px) and (min-width: 377px){
-
-
-        .cont-image-quienes-somos:before {
-                 height: 79%;
-        }
-}
-
-
-@media (max-width: 377px) {
-
-
-        .cont-image-quienes-somos:before {
-             height: 88%;
-        }
-}
 
 
 /*FIN QUIENES SOMOS*/
 
 
 
+
+
 /*INICIO PREGRADO*/
+
+    @media (max-width: 1583px) and (min-width: 1168px){
+
+        .cont-image-pregrado:before {
+            height: 83%;
+         }
+
+    }
+
+
+    @media (max-width: 1168px) and (min-width: 882px){
+
+        .cont-image-pregrado:before {
+            height: 87%;
+         }
+
+    }
+
 
     @media (max-width: 992px) and (min-width: 770px){
 
@@ -1359,26 +1995,104 @@ section.corporate-programs ul>li button:hover {
 
         .form{
                 margin: 77px auto;
+                width: 70%;
         }
 
     }
 
 
 
-    @media (max-width: 1232px) and (min-width: 1015px){
+
+    @media (max-width: 880px) and (min-width: 771px){
+
+        .cont-image-pregrado:before {
+            height: 94%;
+         }
+
+    }
+
+
+     @media (max-width: 643px) and (min-width: 480px){
+
+         .cont-image-pregrado:before {
+            height: 64%;
+        }
+
+
+    }
+
+     @media (max-width: 412px) and (min-width: 360px){
+
+        .cont-image-pregrado:before {
+            height: 70%;
+         }
+
+
+    } 
+
+     @media (max-width: 359px) and (min-width: 340px){
+
+        .cont-image-pregrado:before {
+            height: 74%;
+         }
+
+
+    } 
+
+     @media (max-width: 340px) and (min-width: 310px){
+
+        .cont-image-pregrado:before {
+            height: 77%;
+         }
+
+
+    } 
+
+
+
+/*FIN PREGRADO*/
+
+
+
+
+
+/*INICIO EDUCACIÓN*/
+
+
+
+@media (max-width: 1200px) and (min-width: 771px){
+
+        span.titulo-educacion{
+            padding: 0px 33px;
+            font-size: 0.8em;
+
+        }
+
+        section.corporate-programs h4>span:before {
+            padding: 14px 4px;
+            font-size: 17px;
+
+        }
+
+
+    }
+
+
+
+@media (max-width: 1232px) and (min-width: 1015px){
 
         .cont-image-educacion:before {
-            height: 82%;
+            height: 87%;
         }
 
 
-    }
+    }    
 
 
        @media (max-width: 1016px) and (min-width: 992px){
 
         .cont-image-educacion:before {
-            height: 84%;
+            height: 89%;
         }
 
 
@@ -1386,17 +2100,6 @@ section.corporate-programs ul>li button:hover {
 
 
      @media (max-width: 991px) and (min-width: 936px){
-
-        .cont-image-educacion:before {
-            height: 81%;
-        }
-
-
-    }
-
-
-
-     @media (max-width: 935px) and (min-width: 772px){
 
         .cont-image-educacion:before {
             height: 87%;
@@ -1407,31 +2110,496 @@ section.corporate-programs ul>li button:hover {
 
 
 
-     @media (max-width: 685px) and (min-width: 545px){
+     @media (max-width: 935px) and (min-width: 772px){
 
         .cont-image-educacion:before {
-            height: 81%;
-        }
-
-
-    }
-
-     @media (max-width: 544px) and (min-width: 491px){
-
-        .cont-image-educacion:before {
-            height: 86%;
+            height: 92%;
         }
 
 
     }
 
 
+         @media (max-width: 796px) and (min-width: 772px){
+
+        .cont-image-educacion:before {
+            height: 94%;
+        }
 
 
-/*INICIO PREGRADO*/
+    }
 
 
 
+
+         @media (max-width: 600px) and (min-width: 480px){
+
+        .cont-image-educacion:before {
+            height: 63%;
+        }
+
+
+    }
+
+
+
+    }
+
+
+     @media (max-width: 445px) and (min-width: 358px){
+
+        .cont-image-educacion:before {
+            height: 69%;
+        }
+
+
+    }
+
+
+     @media (max-width: 358px) and (min-width: 325px){
+
+        .cont-image-educacion:before {
+            height: 91%;
+        }
+
+
+    }
+
+
+   
+
+
+/*FIN EDUCACIÓN*/
+
+
+
+
+
+/*INICIO PROGRAMAS CERTIFICADOS*/
+
+
+     @media (max-width: 1583px) and (min-width: 1200px){
+
+            .tabs-certificados li{
+                 width: 45%;
+        }
+
+
+    }
+
+
+     @media (max-width: 1583px) and (min-width: 992px){
+
+        .cont-image-programas p.texto-imagen1 {
+            width: 82%;
+        }
+
+        .cont-image-programas:before{
+            height: 78%;
+        }
+
+        .container.programas .title-intro{
+            margin-top: 60px;
+        }
+
+
+    }
+
+    @media (max-width: 1200px) and (min-width: 770px){
+
+            .tabs-certificados li{
+            width: 45%;
+        }
+
+
+        .tabs-certificados li a {
+
+            font-size: 1.3em;
+            padding-left: 40px;
+        }
+
+
+        .tabs-certificados li a:before {
+            left: 16px;
+        }
+
+    }
+
+     @media (max-width: 991px) and (min-width: 770px){
+
+        .cont-image-programas {
+            display: block;
+        }
+
+        .cont-image-programas p.texto-imagen1 {
+            width: 90%;
+        }
+
+        .cont-image-programas:before{
+            height: 74%;
+        }
+
+        .container.programas .title-intro{
+            margin-top: 40px;
+        }
+
+
+        .tabs-certificados li{
+            width: 46%;
+        }
+
+        .contenido{
+            margin-top: 40px;
+        }
+
+        .tabs{
+            margin: 0 auto 50px auto;
+        }
+
+        .form-certificados {
+            width: 65%;
+            margin: 0px auto 0 auto;
+
+        }
+
+    }
+
+
+     @media (max-width: 892px) and (min-width: 795px){
+
+        .cont-image-programas p.texto-imagen1 {
+            width: 100%;
+            font-size: 1.5em;
+        }
+        .cont-image-programas:before{
+            height: 72%;
+        }
+
+
+    }
+
+     @media (max-width: 794px) and (min-width: 771px){
+
+        .cont-image-programas p.texto-imagen1 {
+            width: 100%;
+            font-size: 1.65em;
+        }
+
+        .cont-image-programas:before{
+            height: 75%;
+        }
+
+
+    }
+
+     @media (max-width: 721px) and (min-width: 644px){
+
+        .cont-image-programas p.texto-imagen1 {
+            width: 100%;
+            font-size: 1.35em;
+        }
+
+        .cont-image-programas:before{
+            height: 57%;
+        }
+
+
+    }
+
+     @media (max-width: 643px) and (min-width: 481px){
+
+        .cont-image-programas p.texto-imagen1 {
+            width: 100%;
+          font-size: 1.117em
+        }
+
+        .cont-image-programas:before{
+            height: 56%;
+        }
+
+        .tabs-certificados{
+            padding: 0px;
+        }
+
+        .tabs-certificados li{
+            width: 45%;
+        }
+
+        .tabs-certificados li a{
+            padding-left: 40px;
+            font-size: 1.117em;
+        }
+
+        .tabs-certificados li a:before {
+            left: 16px;
+        }
+
+
+
+    }
+
+
+     @media (max-width: 532px) and (min-width: 481px){
+
+
+        .cont-image-programas:before {
+            height: 59%;
+        }
+
+    }
+
+
+
+    @media (max-width: 424px) and (min-width: 403px){
+
+
+        .tabs-certificados li{
+            width: 100%;
+            text-align: center;
+        }
+
+        .form-certificados{
+            width: 100%;
+        }
+
+        .tabs-certificados li a:before {
+            left: 55px;
+        }
+
+    }
+
+
+    @media (max-width: 402px) and (min-width: 358px){
+
+        .cont-image-programas:before {
+            height: 70%;
+        }
+
+
+        .tabs-certificados li{
+            width: 100%;
+            text-align: center;
+        }
+
+        .form-certificados{
+            width: 100%;
+        }
+
+        .tabs-certificados li a:before {
+            left: 55px;
+        }
+
+    }
+
+
+    @media (max-width: 357px) and (min-width: 330px){
+
+        .cont-image-programas:before {
+            height: 73%;
+        }
+
+        .tabs-certificados li{
+            width: 100%;
+            text-align: center;
+        }
+
+        .form-certificados{
+            width: 100%;
+        }
+
+
+        .tabs-certificados li a:before {
+            left: 40px;
+        }
+
+    }
+
+
+/*FIN PROGRAMAS CERTIFICADOS*/
+
+
+/*INICIO RESPONSABILIDAD*/
+
+  @media (max-width: 1585px) and (min-width: 1550px){
+
+        .cont-image-responsabilidad:before{
+            height: 79%;
+        }
+
+
+    }
+
+    @media (max-width: 1550px) and (min-width: 1025px){
+
+        .cont-image-responsabilidad:before{
+            height: 83%;
+        }
+
+
+    }
+
+
+    @media (max-width: 1025px) and (min-width: 1015px){
+
+        .cont-image-responsabilidad:before{
+            height: 88%;
+        }
+
+
+    }
+
+
+    @media (max-width: 1016px) and (min-width: 993px){
+
+        .cont-image-responsabilidad:before{
+            height: 89%;
+        }
+
+
+    }
+
+    @media (max-width: 992px) and (min-width: 770px){
+
+        .cont-image-responsabilidad p.texto-imagen1{
+            width: 65%;
+        }
+
+        .cont-image-responsabilidad:before{
+            height: 82%;
+        }
+
+
+    }
+
+
+      @media (max-width: 586px) and (min-width: 481px){
+
+        .cont-image-responsabilidad:before{
+            height: 64%;
+        }
+
+
+}
+      @media (max-width: 645px) and (min-width: 480px){
+
+       .texto-responsabilidad {
+            left: 36px;
+        }
+
+        .content{
+                margin-bottom: 90px;
+        }
+
+
+    }
+
+
+       @media (max-width: 434px) and (min-width: 417px){
+
+            .cont-image-responsabilidad:before {
+                height: 67%;
+            }
+
+        }
+
+      @media (max-width: 416px) and (min-width: 326px){
+
+            .cont-image-responsabilidad:before {
+                height:70%;
+            }
+
+        }
+
+
+
+/*FIN RESPONSABILIDAD*/
+
+
+/*FIN RESPONSABILIDAD*/
+
+
+      @media (max-width: 992px) and (min-width: 770px){
+
+            .form-contacto{
+                margin-top: 40px;
+            }
+
+
+            .cont-image-contacto p.texto-imagen1 {
+                    width: 70%;
+            }
+
+            .cont-image-contacto:before{
+                height: 78%;
+            }
+
+    }
+
+          @media (max-width: 1585px) and (min-width: 992px){
+
+            .cont-image-contacto:before{
+                height: 78%;
+            }
+
+    }
+
+      @media (max-width: 620px) and (min-width: 480px){
+
+            .dates p{
+              font-size: .9em;
+              max-width: 95%;
+              height: 40px;
+
+            }
+
+    }
+
+
+    @media (max-width: 434px) and (min-width: 396px){
+
+            .cont-image-contacto:before{
+                height: 64%;
+            }
+
+    }
+
+    @media (max-width: 395px){
+
+            .cont-image-contacto:before{
+                height: 67%;
+            }
+
+
+    }
+
+    /*FIN RESPONSABILIDAD*/
+
+
+    /* INICIO PÁGINA ERROR*/
+
+    @media (max-width: 1585px){
+
+        .cont-image-error-404:before {
+            height: 78%;
+
+        }
+
+    }
+    /* FIN PÁGINA ERROR*/
+
+
+
+        /* INICIO GRACIAS*/
+
+    @media (max-width: 1585px){
+
+        .cont-image-gracias:before {
+            height: 84%;
+
+        }
+
+    }
+    /* FIN GRACIAS*/
 
 
 /*-------------- FIN BREAK PONINT ADICIONALES ---------------------------*/

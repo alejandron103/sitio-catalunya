@@ -20,32 +20,20 @@
 
 
 
-	<title>ucatalunya</title>
+	<title>Contacto</title>
 
 </head>
 
 <body>
 
 
-<!---inicio video-->
+  <!---inicio backrgound-imagen-->
 
-<div class="video">
-
-<video id="mivideo" autoplay loop>
-
-  <source src="video-background1.mp4" type="video/mp4"></source>
-
-  </video>
-
-</div>
-  <!---final video-->
-
-  <!---inicio backrgound-video-->
-
-<div class="cont-image">
+<div class="cont-image-contacto">
 
 
 	<!---inicio header-->
+	
 <div class="container">
 
 	<div class="col-md-12 header">
@@ -105,140 +93,152 @@
 
 	<div class="col-md-12 texto-imagen">
 
-		<p class="texto-imagen1">“La Educación es el arma más poderosa
-			para cambiar el mundo”</p>
-		<p class="texto-imagen2">Nelson Mandela (1918 - 2013)</p>
+		<p class="texto-imagen1">“La educación no es preparación para la vida; la educación es la vida en si misma.”
+		</p>
+
+		<p class="texto-imagen2">John Dewey  (1859 - 1952)</p>
 
 	</div>
 
 	<!---final texto imágen-->
 
-<!--</video>-->
+
 
 </div>
 
 <!---final backrgound-image-->
 
-
-
 <!---inicio container-->
 
-<div class="container home">
+<div class="container contacto">
 
-	<!---inicio introducción-->
+	<!---inicio contenido-->
 
-	<div class="col-md-12 intro">
+		<div class="col-md-12 intro">
 
-		<div class="col-md-12 title-intro">
+			<div class="col-md-12 title-intro">
 
-			<p>Corporación Universitaria de Cataluña</p>
-
-		</div>
-
-		<div class="col-md-12 texto-intro">
-
-			<p>Somos una Institución Global, cuyo propósito es transformar vidas por medio de experiencias educativas de la mejor calidad en forma incluyente; integrando: culturas, personas, e ideas de todo el mundo.<br><br>
-
-			Apoyamos de forma integral el proceso de Autoformación Corporativa, respaldados con expertos temáticos, alianzas Internacionales y una plataforma educativa adaptada a la necesidad actual de Formación y Capacitación Empresarial. </p>
-
-		</div>
-
-	</div>
-
-	<!---final introducción-->
-
-
-	<!---inicio formación empresarial-->
-
-
-	<div class="col-md-12 formación">
-
-		<div class="col-md-12 title-formation">
-
-			<p>Formación Empresarial</p>
-
-		</div>
-
-
-		<div class="col-md-12 iconos">
-
-			<div class="col-md-3 icono">
-
-
-				<h3 data-icon="check-mark">
-
-					Tecnología<br> 
-					Educativa
-
-				</h3>
-
-				<p>
-					Estructuramos los Programas según los intereses y acorde con las necesidades del sector Administrativo
-				</p>
+				<p>Contáctanos</p>
 
 			</div>
 
-			<div class="col-md-3 icono">
+			<div class="col-md-12 contenido">
 
-				<h3 data-icon="check-mark">
-					Programas <br> 
-					Innovadores
+				<div class="col-md-7 col-sm-12 col-xs-12 contact">
 
-				</h3>
 
-				<p>
-					Programas desarrollados por expertos académicos líderes en el campo Profesional.
-				</p>
+					<div class="col-md-6 col-sm-6 col-xs-6 bogota">
 
-			</div>
+						<div class="title-contacto">
 
-			<div class="col-md-3 icono">
+							<p>Bogotá</p>
 
-				<h3 data-icon="check-mark">
-					Oferta <br>
-					Formativa
+						</div>
+
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497.05498396124597!2d-74.04973476335402!3d4.693376314970856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf273d9a429607437!2sUniversidad+de+Catalunya!5e0!3m2!1ses!2sco!4v1493321889269" width="100%" height="278" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+						<div class="dates">
+
+							<span data-icon="check-mark"><p>Carrera 18B 106 A 15</p></span>
+
+							<span data-icon="check-mark"><p>info@udecatalunya.edu.co</p></span>
+
+							<span data-icon="check-mark"><p>+57 (1) 489 47 84</p></span>
+
+						</div>
+
+
+					</div>
+
+
+					<div class="col-md-6 col-sm-6 col-xs-6 lima">
 					
-				</h3>
+						<div class="title-contacto">
 
-				<p>
-					Contamos con una Amplia oferta para el Crecimiento Empresarial y Desarrollo Académico.
-				</p>
+							<p>Lima</p>
+
+						</div>
+
+						<div class="dates">
+
+							<span data-icon="check-mark"><p>Jirón de la Unión 446 Of. 304</p></span>
+
+							<span data-icon="check-mark"><p>info@udecatalunya.edu.co</p></span>
+
+							<span data-icon="check-mark"><p>+ 51 (1) 4271004</p></span>
+
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="col-md-6 col-sm-6 col-xs-6 bogota-info">
+
+						<!--<div class="dates">
+
+							<span data-icon="check-mark"><p>Carrera 18B 106 A 15</p></span>
+
+							<span data-icon="check-mark"><p>info@udecatalunya.edu.co</p></span>
+
+							<span data-icon="check-mark"><p>+57 (1) 489 47 84</p></span>
+
+						</div>-->
+
+					</div>
+
+
+					<div class="col-md-6 col-sm-6 col-xs-6 miami">
+					
+						<div class="title-contacto">
+
+							<p>Miami</p>
+
+						</div>
+
+						<div class="dates">
+
+							<span data-icon="check-mark"><p>3390 Mary Street</p></span>
+
+							<span data-icon="check-mark"><p>info@udecatalunya.edu.co</p></span>
+
+							<span data-icon="check-mark"><p>+1 (305) 280 21 50</p></span>
+
+						</div>	
+
+					</div>
+
+
+
+
+				</div>
+
+
+				<div class="col-md-4 col-sm-12 col-xs-12 formulario">
+
+					<div class="form-contacto">
+
+
+					</div>
+
+				</div>
+
 
 			</div>
-
-			<div class="col-md-3 icono">
-
-				<h3 data-icon="check-mark">
-					Formación de <br> 
-					Clase Mundial
-				</h3>
-
-				<p>
-					Convenios Estratégicos para brindar Certificaciones en Formación Integral.
-				</p>
-
-			</div>
-
-
-
-
+				
 
 		</div>
-		
 
-	</div>
+	<!---final contenido-->
 
-		<!---final formación empresarial-->
+</div>
 
-	</div>
+<!---Final container-->
 
-	
-
-
-	<!---final container-->
-
-
-	<!---inicio aliados-->
+<!---inicio aliados-->
 
 	<div class="col-md-12 aliados">
 	</div>

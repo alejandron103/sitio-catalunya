@@ -180,7 +180,7 @@ var portfolio = $('section.corporate-programs');
 
 <!---inicio container-->
 
-<div class="container">
+<div class="container educacion">
 
 	<!---inicio introducción-->
 
@@ -214,7 +214,7 @@ var portfolio = $('section.corporate-programs');
 
 <!-- inicio tabs-->
 		
-<section class="col-md-8 corporate-programs">
+<section class="col-md-8 col-sm-6 col-xs-12 corporate-programs">
        
         <article>
             <h3 class="outline">Programas de Formación Educativa Unicatalunya</h3>
@@ -779,7 +779,7 @@ var portfolio = $('section.corporate-programs');
 
 <!-- inicio tabs-->
 
-		<div class="col-md-4 formulario">
+		<div class="col-md-4 col-sm-6 col-xs-12 formulario">
 
 			<div class="form-educacion">
 				

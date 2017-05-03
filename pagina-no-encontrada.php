@@ -6,46 +6,35 @@
 
 	<link rel="stylesheet" type="text/css" href="styles.css">
 
-  	<script type="text/javascript" src="query.js"></script>
+  	
   	<!-- Versión compilada y comprimida del CSS de Bootstrap -->
 
 <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/prototype/1.7.1.0/prototype.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
 
 
 
-	<title>ucatalunya</title>
+	<title>Página no encontrada</title>
 
 </head>
 
 <body>
 
 
-<!---inicio video-->
-
-<div class="video">
-
-<video id="mivideo" autoplay loop>
-
-  <source src="video-background1.mp4" type="video/mp4"></source>
-
-  </video>
-
-</div>
-  <!---final video-->
-
   <!---inicio backrgound-video-->
 
-<div class="cont-image">
+<div class="cont-image-error-404">
 
 
 	<!---inicio header-->
+	
 <div class="container">
 
 	<div class="col-md-12 header">
@@ -82,6 +71,7 @@
 </div>
 
 	<!---final header-->
+	
 
 	<!---inicio barra de navegación-->
 
@@ -101,17 +91,25 @@
 
 	<!---final barra de navegación-->
 
-	<!---inicio texto imágen-->
+	<!---inicio texto imágen
 
 	<div class="col-md-12 texto-imagen">
 
-		<p class="texto-imagen1">“La Educación es el arma más poderosa
-			para cambiar el mundo”</p>
-		<p class="texto-imagen2">Nelson Mandela (1918 - 2013)</p>
+		<p class="texto-imagen1">
+
+            “Tan solo por la educación puede el hombre llegar a ser hombre.<br>
+
+            El hombre no es más que lo que la educación hace de él.”
+
+
+
+		</p>
+
+		<p class="texto-imagen2">Immanuel Kant  (1724 - 1804)</p>
 
 	</div>
 
-	<!---final texto imágen-->
+	final texto imágen-->
 
 <!--</video>-->
 
@@ -123,7 +121,7 @@
 
 <!---inicio container-->
 
-<div class="container home">
+<div class="container error-404">
 
 	<!---inicio introducción-->
 
@@ -131,108 +129,68 @@
 
 		<div class="col-md-12 title-intro">
 
-			<p>Corporación Universitaria de Cataluña</p>
+			<p>Página no encontrada</p>
 
 		</div>
 
-		<div class="col-md-12 texto-intro">
+		<!--<div class="col-md-12 texto-intro">
 
-			<p>Somos una Institución Global, cuyo propósito es transformar vidas por medio de experiencias educativas de la mejor calidad en forma incluyente; integrando: culturas, personas, e ideas de todo el mundo.<br><br>
+			<p>
 
-			Apoyamos de forma integral el proceso de Autoformación Corporativa, respaldados con expertos temáticos, alianzas Internacionales y una plataforma educativa adaptada a la necesidad actual de Formación y Capacitación Empresarial. </p>
+		      Los programas certificados son la modalidad de formación de mayor crecimiento en USA. Se orienta a programas de avanzada, donde la empresa requiere certificación de la habilidad y/o conocimiento (Skill) adquirida. El enfoque de estos programas es práctico, en ellos el estudiante además de adquirir las bases conceptuales requeridas, desarrolla talleres y test que permiten verificar la habilidad y/o conocimiento.<br><br>
 
-		</div>
+                El certificado del programa, se acompaña de un código de verificación que permite a la empresa o el tercero interesado verificar las competencias adquiridas por el estudiante en el programa.
+
+		</div>-->
 
 	</div>
 
 	<!---final introducción-->
 
 
-	<!---inicio formación empresarial-->
-
-
-	<div class="col-md-12 formación">
-
-		<div class="col-md-12 title-formation">
-
-			<p>Formación Empresarial</p>
-
-		</div>
-
-
-		<div class="col-md-12 iconos">
-
-			<div class="col-md-3 icono">
-
-
-				<h3 data-icon="check-mark">
-
-					Tecnología<br> 
-					Educativa
-
-				</h3>
-
-				<p>
-					Estructuramos los Programas según los intereses y acorde con las necesidades del sector Administrativo
-				</p>
-
-			</div>
-
-			<div class="col-md-3 icono">
-
-				<h3 data-icon="check-mark">
-					Programas <br> 
-					Innovadores
-
-				</h3>
-
-				<p>
-					Programas desarrollados por expertos académicos líderes en el campo Profesional.
-				</p>
-
-			</div>
-
-			<div class="col-md-3 icono">
-
-				<h3 data-icon="check-mark">
-					Oferta <br>
-					Formativa
-					
-				</h3>
-
-				<p>
-					Contamos con una Amplia oferta para el Crecimiento Empresarial y Desarrollo Académico.
-				</p>
-
-			</div>
-
-			<div class="col-md-3 icono">
-
-				<h3 data-icon="check-mark">
-					Formación de <br> 
-					Clase Mundial
-				</h3>
-
-				<p>
-					Convenios Estratégicos para brindar Certificaciones en Formación Integral.
-				</p>
-
-			</div>
 
 
 
+	<div class="col-md-12 contenido">
 
 
-		</div>
+
+<!-- inicio texto-error-->
+
+    <div class="col-md-7 col-sm-12 col-xs-12 texto-error">
+
+			<p>
+			
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.	
+
+			</p>
+
+    </div>
+
 		
+<!-- fin texto-error-->
+
+
+
+<!-- inicio formulario-->
+
+		<div class="col-md-5 col-sm-12 col-xs-12 formulario">
+
+			<div class="form-error-404">
+				
+			</div>
+		
+		</div>
+
+
+			
 
 	</div>
 
-		<!---final formación empresarial-->
+		<!---final formulario-->
 
-	</div>
 
-	
+</div>
 
 
 	<!---final container-->
@@ -241,6 +199,7 @@
 	<!---inicio aliados-->
 
 	<div class="col-md-12 aliados">
+
 	</div>
 
 	<!---final aliados-->
@@ -249,7 +208,7 @@
 
 	<div class="col-md-12 footer">
 
-	<div class="container">
+		<div class="container">
 
 			<div class="col-md-3 footer-cont" >
 

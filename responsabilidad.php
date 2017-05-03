@@ -33,12 +33,14 @@
 
 
 	<!---inicio header-->
+	
+<div class="container">
 
 	<div class="col-md-12 header">
 
 		<!---inicio logo-->
 
-		<div class="col-md-6 logo">
+		<div class="col-md-6 col-sm-6 col-xs-5 logo">
 
 			<img src="images/logo_catalunya.png">
 
@@ -48,7 +50,7 @@
 
 		<!---inicio redes-->
 
-		<div class="col-md-6 social">
+		<div class="col-md-6 col-sm-6 col-xs-7 social">
 
 			<ul class="redes">
 
@@ -64,6 +66,8 @@
 		<!---inicio redes-->
 
 	</div>
+
+</div>
 
 	<!---final header-->
 
@@ -108,7 +112,7 @@
 
 <!---inicio container-->
 
-<div class="container">
+<div class="container responsabilidad">
 
 	<!---inicio contenido-->
 
@@ -123,7 +127,7 @@
 
 		<div class="col-md-12 content">
 
-			<div class="col-md-2  col-xs-12 image-responsabilidad">
+			<div class="col-md-2 col-sm-3 col-xs-3 image-responsabilidad">
 
 				<h3 class="beca">
 
@@ -134,7 +138,7 @@
 			</div>
 
 
-			<div class="col-md-10  col-xs-12 texto-responsabilidad">
+			<div class="col-md-10 col-sm-9 col-xs-9 texto-responsabilidad">
 
 				<p>
 
@@ -151,7 +155,7 @@
 
 		<div class="col-md-12 content">
 
-					<div class="col-md-2  col-xs-12 image-responsabilidad">
+					<div class="col-md-2 col-sm-3 col-xs-3 image-responsabilidad">
 
 						<h3 class="donacion">
 					
@@ -160,7 +164,7 @@
 
 					</div>
 
-				<div class="col-md-10 col-xs-12 texto-responsabilidad">
+				<div class="col-md-10 col-sm-9 col-xs-9 texto-responsabilidad">
 
 					<p>
 
@@ -178,7 +182,7 @@
 
 		<div class="col-md-12 content">
 
-				<div class="col-md-2 col-xs-12 image-responsabilidad">
+				<div class="col-md-2  col-sm-3 col-xs-3 image-responsabilidad">
 
 					<h3 class="tiempo">
 
@@ -188,7 +192,7 @@
 
 				</div>
 
-				<div class="col-md-10 col-xs-12 texto-responsabilidad">
+				<div class="col-md-10 col-sm-9 col-xs-9 texto-responsabilidad">
 
 					<p>
 

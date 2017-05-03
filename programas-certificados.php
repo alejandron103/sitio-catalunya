@@ -186,7 +186,7 @@ var portfolio = $('section.corporate-programs');
 
 <!---inicio container-->
 
-<div class="container">
+<div class="container programas">
 
 	<!---inicio introducción-->
 
@@ -213,7 +213,7 @@ var portfolio = $('section.corporate-programs');
 	<!---final introducción-->
 
 
-	<!---inicio formulario-->
+
 
 
 	<div class="col-md-12 contenido">
@@ -222,7 +222,7 @@ var portfolio = $('section.corporate-programs');
 
 <!-- inicio tabs-->
 
-    <div class="col-md-8 tabs">
+    <div class="col-md-7 col-sm-12 col-xs-12 tabs">
 
         <ul class="tabs-certificados">
 
@@ -251,9 +251,9 @@ var portfolio = $('section.corporate-programs');
 
 <!-- inicio formulario-->
 
-		<div class="col-md-4 formulario">
+		<div class="col-md-5 col-sm-12 col-xs-12 formulario">
 
-			<div class="form-educacion">
+			<div class="form-certificados">
 				
 			</div>
 		
